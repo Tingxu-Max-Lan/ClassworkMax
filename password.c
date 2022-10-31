@@ -34,16 +34,16 @@ bool valid(string password){
     bool symbol = false;
     for(int i = 0; i < strlen(password); i++){
         temp = password[i];
-    if(isupper(lol)){
+    if(isupper(temp)){
         uppercase = true;
     }
-    if(islower(lol)){
+    if(islower(temp)){
         lowercase = true;
     }
-    if(ispunct(lol)){
+    if(ispunct(temp)){
         num = true;
     }
-    if(isdigit(lol)){
+    if(isdigit(temp)){
         symbol = true;
     }
     }
